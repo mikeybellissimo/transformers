@@ -13,6 +13,11 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 -->
+# Reason for this fork:
+ I needed to specify the state_dict directly for a particular use case but you are not able to do so while also specifying the device map. To see all of the changes made to this so that you are able to implement this in a later version of transformers, look at the src/modeling_utils.py file and search for "specified_state_dict" and add those changes. 
+
+
+
 
 <p align="center">
   <picture>
